@@ -1,8 +1,8 @@
 ﻿using Autofac;
-using Ioc_Autofac.Utility;
+using Ioc.Autofac.Utility;
 using System;
 
-namespace Ioc_Autofac
+namespace Ioc.Autofac
 {
     static class Program
     {

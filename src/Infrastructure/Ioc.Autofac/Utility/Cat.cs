@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ioc_Autofac.Utility
+namespace Ioc.Autofac.Utility
 {
     public class Cat : IAnimal
     {
