@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOC", "IOC", "{579F2527-963B-48C7-914B-6A60A8015E07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ioc_Autofac", "Ioc_Autofac\Ioc_Autofac.csproj", "{7220D056-C245-40AF-9D1C-B8517E928F05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MQ", "MQ", "{5D806682-D25A-4927-B9B5-FEE67C4BC2C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mapper", "Mapper", "{8C3437B7-3D2F-4415-8789-53F0DDD6C3DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AOP", "AOP", "{DE733A9F-F8FF-4681-A8C0-7819994F5468}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ORM", "ORM", "{17A89978-D11F-4325-9C81-2CFE84F4933D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NoSql", "NoSql", "{D04D7C0A-CFAC-4254-9529-563B816558BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log", "Log", "{2D6D9D90-BD55-41D4-9A36-B4323A3406E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authenticate", "Authenticate", "{F57E9818-4238-4499-9CD9-CD9328728CD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SSO", "SSO", "{075FAD56-5009-4404-ACFE-47F0D0F97318}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{6231306A-71B1-4204-BD9E-09C67BEFC600}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{0F78EF62-8879-431E-9902-5BCD5BBBC8F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Thread", "Thread", "{79B52ACD-E353-45F4-BE9A-C639533AA777}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Async", "Async", "{C5D8AFA3-7448-4FC9-A2AF-8E9F7E6C16B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{9180389E-0289-4216-BF39-77FEB234CEC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.BenchmarkDotNet", "Test.BenchmarkDotNet\Test.BenchmarkDotNet.csproj", "{F5ECC3D8-08E8-4BE1-AB64-70E0F527B7B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7220D056-C245-40AF-9D1C-B8517E928F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7220D056-C245-40AF-9D1C-B8517E928F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7220D056-C245-40AF-9D1C-B8517E928F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7220D056-C245-40AF-9D1C-B8517E928F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5ECC3D8-08E8-4BE1-AB64-70E0F527B7B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5ECC3D8-08E8-4BE1-AB64-70E0F527B7B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5ECC3D8-08E8-4BE1-AB64-70E0F527B7B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5ECC3D8-08E8-4BE1-AB64-70E0F527B7B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7220D056-C245-40AF-9D1C-B8517E928F05} = {579F2527-963B-48C7-914B-6A60A8015E07}
+		{F5ECC3D8-08E8-4BE1-AB64-70E0F527B7B3} = {9180389E-0289-4216-BF39-77FEB234CEC6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDA3B22B-5F29-4DC0-8FEF-69DB209E3E53}
+	EndGlobalSection
+EndGlobal
